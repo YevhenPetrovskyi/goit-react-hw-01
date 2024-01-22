@@ -4,9 +4,9 @@ import Profile from './Profile';
 import FriendsList from './FriendList';
 import TransactionHistory from './TransactionHistory';
 
-import { username, tag, location, avatar, stats } from '../userData.json';
-import friends from '../friends.json';
-import transactions from '../transactions.json';
+import { username, tag, location, avatar, stats } from '../data/userData.json';
+import friends from '../data/friends.json';
+import transactions from '../data/transactions.json';
 
 function App() {
   return (
