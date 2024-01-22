@@ -1,4 +1,5 @@
 import './Profile.css';
+
 const Profile = ({ name, tag, location, image, stats }) => {
   return (
     <div className="profile">
