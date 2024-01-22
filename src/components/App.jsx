@@ -1,8 +1,8 @@
 import './App.css';
 
-import Profile from './Profile';
-import FriendsList from './FriendList';
-import TransactionHistory from './TransactionHistory';
+import Profile from './Profile/Profile';
+import FriendsList from './FriendsList/FriendList';
+import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 import { username, tag, location, avatar, stats } from '../data/userData.json';
 import friends from '../data/friends.json';
